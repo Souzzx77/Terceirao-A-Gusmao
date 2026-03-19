@@ -103,7 +103,7 @@ https://www.tiktok.com/@terceiraogussmao
 
 ---
 
-# 👨‍💻 Desenvolvimento
+# 💻 Desenvolvimento
 
 Projeto desenvolvido para o **Terceirão A – Gusmão**.
 
