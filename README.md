@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Logotipo.jpg" width="180">
+<img src="Logotipo.jpeg" width="180">
 
 # 🎓 Site Oficial • Terceirão A – Gusmão
 
