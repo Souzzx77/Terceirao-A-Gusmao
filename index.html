@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>3ºA • Portal da Turma</title>
+<title>Terceirão A - Gusmão</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -182,6 +182,84 @@ transform:scale(1.3) rotate(10deg)
 .hero h1{font-size:2rem}
 }
 
+.conferir a{
+color:var(--vinho);
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* ========================= */
+/* RESPONSIVIDADE GLOBAL */
+/* ========================= */
+
+img,video{
+max-width:100%;
+height:auto;
+}
+
+/* Tablet */
+
+@media(max-width:900px){
+
+header{
+flex-direction:column;
+align-items:flex-start;
+gap:10px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:2.2rem;
+}
+
+section{
+margin:40px auto;
+}
+
+}
+
+/* Celular */
+
+@media(max-width:600px){
+
+.hero img{
+width:120px;
+}
+
+.hero h1{
+font-size:1.8rem;
+}
+
+.grid{
+grid-template-columns:1fr;
+}
+
+table{
+font-size:12px;
+}
+
+th,td{
+padding:8px;
+}
+
+nav a{
+margin-left:0;
+}
+
+}
+
 </style>
 </head>
 
@@ -194,9 +272,12 @@ transform:scale(1.3) rotate(10deg)
 <nav>
 <a href="index.html">𝑰𝑵𝑰𝑪𝑰𝑶</a>
 <a href="Feed.html">𝑭𝑬𝑬𝑫</a>
+<a href="turma.html">𝑻𝑼𝑹𝑴𝑨</a>
 <a href="https://www.tiktok.com/@terceiraogussmao">𝑻𝑰𝑲𝑻𝑶𝑲</a>
 <a href="https://www.instagram.com/terceiraogussmao/">𝑰𝑵𝑺𝑻𝑨𝑮𝑹𝑨𝑴</a>
-<a href="#">𝑪𝑶𝑵𝑻𝑨𝑻𝑶</a>
+<a href="https://wa.me/5511981332616?text=Olá,%20vim%20pelo%20site%20do%203ºA" target="_blank">
+𝑪𝑶𝑵𝑻𝑨𝑻𝑶
+</a>
 </nav>
 
 </header>
@@ -222,7 +303,7 @@ O site oficial do 3ºA para registrar os memes, vídeos, novidades da turma e to
 <div class="grid">
 
 <div class="card">
-🎬 Vídeo novo no feed! Confira o último meme postado pela sala. <a href="https://www.instagram.com/terceiraogussmao/">Confira!</a>
+🎬 Vídeo novo no feed! Confira o último meme postado pela sala. <a href="https://www.instagram.com/terceiraogussmao/">Confira!</a></div>
 </div>
 
 <div class="card">
